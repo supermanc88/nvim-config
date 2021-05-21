@@ -49,4 +49,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'yianwillis/vimcdoc'
+
+" Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 call plug#end()
