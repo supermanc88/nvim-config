@@ -144,4 +144,27 @@ highlight link CocWarningFloat Normal
 highlight link CocErrorFloat Normal
 highlight link CocInfoFloat Normal
 highlight link CocHintFloat Normal
+
+
+function! StatusDiagnostic() abort
+  let info = get(b:, 'coc_diagnostic_info', {})
+  if empty(info) | return '' | endif
+  let msgs = []
+  if get(info, 'error', 0)
+	call add(msgs, 'E[' . info['error'] . ']')
+  else
+	call add(msgs, 'E[' . '0' . ']')
+  endif
+  if get(info, 'warning', 0)
+	call add(msgs, 'W[' . info['warning'] . ']')
+  else
+	call add(msgs, 'W[' . '0' . ']')
+  endif
+  if has_key(info, 'lnums')
+	let lnums_list = info['lnums']
+	let lnum_string = '[error:'.string(lnums_list[0]).' warning:'.string(lnums_list[1]).' info:'.string(lnums_list[2]).' hint:'.string(lnums_list[3]) . ']'
+	call add(msgs, 'L' . lnum_string)
+  endif
+  return join(msgs, ' ') . ' ' . get(g:, 'coc_status', '')
+endfunction
 " neoclide/coc.nvim 补全插件 配置============================================================= ]

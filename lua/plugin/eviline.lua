@@ -16,13 +16,17 @@ local function lsp_status(status)
 end
 
 
+-- local function get_coc_lsp()
+--   local status = vim.fn['coc#status']()
+--   if not status or status == '' then
+--       return ''
+--   end
+-- --  return lsp_status(status)
+--   return status
+-- end
+
 local function get_coc_lsp()
-  local status = vim.fn['coc#status']()
-  if not status or status == '' then
-      return ''
-  end
---  return lsp_status(status)
-  return status
+	return vim.fn.StatusDiagnostic()	
 end
 
 function get_diagnostic_info()
