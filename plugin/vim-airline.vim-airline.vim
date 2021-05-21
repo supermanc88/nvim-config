@@ -10,9 +10,9 @@ let g:airline_theme='powerlineish'
 " 这里是否生效还要通过下面的安装字体才可以
 " 要使用箭头样式需要打开powerline
 " 一般使用Source Code Pro
-" let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1
 
-set guifont=JetBrainsMono\ Nerd\ Font:h11:cANSI
+" set guifont=JetBrainsMono\ Nerd\ Font:h11:cANSI
 " 自定义字符
 " if !exists('g:airline_symbols')
 "   let g:airline_symbols = {}

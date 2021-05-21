@@ -1,6 +1,11 @@
 " load global-config
 exec 'source ' . stdpath('config') . '/global-config.vim'
 
+if !exists(":GuiFont")
+	exec 'source ' . stdpath('config') . '/nvim_gui_shim.vim'
+endif
+
+GuiFont! JetBrainsMono Nerd Font:h11
 
 let g:chm_nvim_root_dir = stdpath('config')
 
@@ -24,16 +29,25 @@ let keymap_file_list = ChmGetFileList(g:chm_nvim_keymap_dir)
 
 let config_file_list = ChmGetFileList(g:chm_nvim_config_dir)
 
+" 加载config目录下的所有文件
 for file in config_file_list
-	echo file
+"	echo file
 	exec 'source ' fnameescape(file)
 endfor
 
+
+" 加载keymap目录下的所有文件
 for file in keymap_file_list
-	echo file
+"	echo file
 	exec 'source ' fnameescape(file)
 endfor
 
+
+
+
+
+
+let mapleader = "\<space>"
 
 "bufferline
 lua <<EOF
@@ -55,16 +69,7 @@ require'nvim-web-devicons'.setup {
 require'nvim-web-devicons'.get_icons()
 EOF
 
-set termguicolors
-" In your init.{vim|lua}
-" lua require("bufferline").setup{}
-lua require('plugin.nvim-bufferline')
-"bufferline
 
-
-
-
-let mapleader = "\<space>"
 
 
 lua <<EOF

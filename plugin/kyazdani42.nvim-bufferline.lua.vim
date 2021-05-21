@@ -1,3 +1,9 @@
+set termguicolors
+" In your init.{vim|lua}
+" lua require("bufferline").setup{}
+lua require('plugin.nvim-bufferline')
+"bufferline
+
 " bufferline.lua start
 
 

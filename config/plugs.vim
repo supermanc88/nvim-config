@@ -38,6 +38,9 @@ Plug 'kyazdani42/nvim-tree.lua'
 
 " Plug 'romgrk/doom-one.vim'
 
+" tpope/vim-fugitive git插件
+" https://github.com/tpope/vim-fugitive
+Plug 'tpope/vim-fugitive'
 
 " dense-analysis/ale 动态检查工具
 " https://github.com/dense-analysis/ale
