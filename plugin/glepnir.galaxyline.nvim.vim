@@ -1,1 +1,1 @@
-" lua require('plugin.galaxyline')
+lua require('plugin.eviline')

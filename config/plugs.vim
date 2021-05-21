@@ -27,7 +27,7 @@ Plug 'preservim/nerdtree'                    							" 目录树
 Plug 'mhinz/vim-startify'
 
 
-Plug 'vim-airline/vim-airline'                							" 状态栏
+"Plug 'vim-airline/vim-airline'                							" 状态栏
 Plug 'vim-airline/vim-airline-themes'												" 状态栏主题
 
 Plug 'kyazdani42/nvim-web-devicons'
@@ -50,5 +50,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'yianwillis/vimcdoc'
 
-" Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
+Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
+
+Plug 'liuchengxu/vista.vim'
 call plug#end()
