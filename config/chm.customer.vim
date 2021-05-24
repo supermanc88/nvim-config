@@ -2,7 +2,7 @@
 
 " 打开自己写的常用的vim快捷键
 let g:helpTxtOpened = 0
-function OpenMyHelpTxtToggle()
+function! OpenMyHelpTxtToggle()
 "	echo g:helpTxtOpened
 "	let g:helpTxtOpened = bufexists('C:\\Users\\CHM\\OneDrive\\工作\\常用\\vim快捷键.txt')
 "	let g:helpTxtOpened = execute "ls"
@@ -22,12 +22,12 @@ noremap <F1> :call OpenMyHelpTxtToggle()<cr>
 
 
 " 缓冲切换快捷键映射
-noremap <F3> :bn<CR>
-noremap <F4> :bp<CR>
+" noremap <F3> :bn<CR>
+" noremap <F4> :bp<CR>
 
 
 " 获取指定目录下的所有文件
-function ChmGetBuildFileList(filePath,  filePattern = '*.txt')
+function! ChmGetBuildFileList(filePath,  filePattern = '*.txt')
 	return split(globpath(a:filePath, a:filePattern), '\n')
 endfunction
 
