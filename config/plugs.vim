@@ -1,13 +1,11 @@
 call plug#begin('~/.nvim-config/plugged')
-
+" luochen1990/rainbow 彩虹括号插件
+" https://github.com/luochen1990/rainbow
+Plug 'luochen1990/rainbow'
 
 " nvim-treesitter/nvim-treesitter 基于lsp的语法高亮
 " https://github.com/nvim-treesitter/nvim-treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
-" luochen1990/rainbow 彩虹括号插件
-" https://github.com/luochen1990/rainbow
-Plug 'luochen1990/rainbow'
 
 " Yggdroot/LeaderF 模糊搜索插件
 " https://github.com/Yggdroot/LeaderF
@@ -44,7 +42,6 @@ Plug 'kyazdani42/nvim-tree.lua'
 " nvim-qt需要添加 --no-ext-tabline
 " Plug 'romgrk/barbar.nvim'
 
-
 " tpope/vim-fugitive git插件
 " https://github.com/tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
@@ -71,9 +68,21 @@ Plug 'liuchengxu/vista.vim'
 
 " Yggdroot/indentLine 对齐线
 " https://github.com/Yggdroot/indentLine
-Plug 'Yggdroot/indentLine'
+" Plug 'Yggdroot/indentLine'
 
 " indent-blankline.nvim 对齐线插件和 indentLine一起使用
 " https://github.com/lukas-reineke/indent-blankline.nvim
 Plug 'lukas-reineke/indent-blankline.nvim', {'branch': 'lua'}
+
+" tpope/vim-surround 快速包围插件
+" https://github.com/tpope/vim-surround
+Plug 'tpope/vim-surround'
+
+" tpope/vim-repeat 重复上次的动作
+" https://github.com/tpope/vim-repeat
+Plug 'tpope/vim-repeat'
+
+" ntpeters/vim-better-whitespace 清除额外的空格
+" https://github.com/ntpeters/vim-better-whitespace
+Plug 'ntpeters/vim-better-whitespace'
 call plug#end()
