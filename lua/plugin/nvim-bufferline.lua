@@ -37,8 +37,8 @@ require('bufferline').setup {
     end,
     offsets = {{filetype = "NvimTree", text = "File Explorer", text_align = "left"}}, -- "left" | "center" | "right"
     show_buffer_icons = true, -- disable filetype icons for buffers true | false
-    show_buffer_close_icons = true, -- true | false
-    show_close_icon = true, -- true | false
+    show_buffer_close_icons = false, -- true | false
+    show_close_icon = false, -- true | false
     show_tab_indicators = true, -- true | false
     persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
     -- can also be a table containing 2 custom separators
