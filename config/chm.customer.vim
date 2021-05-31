@@ -53,9 +53,9 @@ function! CHMSetBuildFile()
 	let userInput = getchar()
 	echo nr2char(userInput)
 	if has('win32')
-		exec "!copy " . filelist[nr2char(userInput)] . " " . current_dir . "/compile_flags.txt"
+		exec "!copy " . filelist[nr2char(userInput)] . " " . current_dir . "\\compile_flags.txt"
 	else
-		exec "!cp " . filelist[nr2char(userInput)] . " " . current_dir . "/compile_flags.txt"
+		exec "!cp " . filelist[nr2char(userInput)] . " " . current_dir . "\\compile_flags.txt"
 	endif
 
 endfunction
