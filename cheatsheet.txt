@@ -41,3 +41,12 @@ Author注释                                                      | :DoxAuthor
 切换折叠                                                        | za
 打开一层代码                                                    | zo
 删除光标下折叠                                                  | zd
+
+## surround
+删除括号                                                        | ds"						"Hello world!" => Hello world!
+替换括号                                                        | cs"(						"Hello world!" => (Hello world!)
+替换括号，括号内文本做新一行                                    | cS"{						"Hello world!" => {\n Hello world! \n}
+添加括号                                                        | ysiw"                     Hello world! => "Hello" world!
+整行括起来                                                      | yss"                      Hello world! => "Hello world!"
+选中的括起来                                                    | S"
+选中的括起来，括号内文本做新一行                                | gS"						Hello world! => Hello {\n world\n }!
