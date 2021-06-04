@@ -1,11 +1,11 @@
 call plug#begin('~/.nvim-config/plugged')
-" luochen1990/rainbow 彩虹括号插件
-" https://github.com/luochen1990/rainbow
-Plug 'luochen1990/rainbow'
-
 " nvim-treesitter/nvim-treesitter 基于lsp的语法高亮
 " https://github.com/nvim-treesitter/nvim-treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" luochen1990/rainbow 彩虹括号插件
+" https://github.com/luochen1990/rainbow
+Plug 'luochen1990/rainbow'
 
 " Yggdroot/LeaderF 模糊搜索插件
 " https://github.com/Yggdroot/LeaderF
@@ -85,4 +85,12 @@ Plug 'tpope/vim-repeat'
 " ntpeters/vim-better-whitespace 清除额外的空格
 " https://github.com/ntpeters/vim-better-whitespace
 Plug 'ntpeters/vim-better-whitespace'
+
+" sudormrfbin/cheatsheet.nvim 速查表
+" https://github.com/sudormrfbin/cheatsheet.nvim
+Plug 'sudormrfbin/cheatsheet.nvim'
+" optional
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 call plug#end()

@@ -2,6 +2,9 @@
 " 自动启用
 let g:rainbow_active = 1
 
+" 当安装nvim-treesitter后，彩虹括号就不生效了，需禁用下面的着色
+highlight link TSPunctBracket Normal
+
 let g:rainbow_conf = {
 \	'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
 \	'ctermfgs': ['lightblue', 'lightyellow', 'lightcyan', 'lightmagenta'],
