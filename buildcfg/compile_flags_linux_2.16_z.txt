@@ -1,0 +1,12 @@
+-xc
+-I
+.
+-I
+Z:\\usr\\src\\kernels\\2.6.32-754.el6.x86_64\\arch\\x86\\include
+-I
+Z:\\usr\\src\\kernels\\2.6.32-754.el6.x86_64\\include
+-DNDEBUG
+-DMODULE
+-D__KERNEL__
+-D__GNUC__=4
+-DCONFIG_64BIT
