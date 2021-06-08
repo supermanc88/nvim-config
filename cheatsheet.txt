@@ -18,6 +18,7 @@
 查看类型定义                                                    | gy <Plug>(coc-type-definition)
 查看引用                                                        | gr <Plug>(coc-references)
 查看定义                                                        | ge <Plug>(coc-declaration)
+快速修改                                                        | <leader>qf  <Plug>(coc-fix-current)
 
 ## 注释
 代码注释切换                                                    | <leader>c<space>

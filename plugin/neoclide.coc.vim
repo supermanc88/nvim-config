@@ -145,6 +145,9 @@ highlight link CocErrorFloat Normal
 highlight link CocInfoFloat Normal
 highlight link CocHintFloat Normal
 
+"修改提示框颜色
+highlight PMenu ctermfg=0 ctermbg=242 guifg=black guibg=darkgrey
+highlight PMenuSel ctermfg=242 ctermbg=8 guifg=darkgrey guibg=black
 
 function! StatusDiagnostic() abort
   let info = get(b:, 'coc_diagnostic_info', {})
@@ -167,4 +170,23 @@ function! StatusDiagnostic() abort
   endif
   return join(msgs, ' ') . ' ' . get(g:, 'coc_status', '')
 endfunction
+
+
+
+" :CocInstall coc-explorer
+" 安装file explorer
+:nnoremap <f5> :CocCommand explorer<CR>
+
+" :CocInstall coc-go
+" 支持golang
+"
+" :CocInstall coc-pyright
+" 支持python
+"
+" :CocInstall coc-tsserver
+" 支持js和ts
+"
+" :CocInstall coc-json
+" 支持json
+
 " neoclide/coc.nvim 补全插件 配置============================================================= ]
