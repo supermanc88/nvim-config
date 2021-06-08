@@ -51,3 +51,11 @@ Author注释                                                      | :DoxAuthor
 整行括起来                                                      | yss"                      Hello world! => "Hello world!"
 选中的括起来                                                    | S"
 选中的括起来，括号内文本做新一行                                | gS"						Hello world! => Hello {\n world\n }!
+
+## nvim-tree
+刷新目录                                                        | R
+
+## goto-preview
+预览定义                                                        | gpd
+预览实现                                                        | gpi
+关闭预览                                                        | gP

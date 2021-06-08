@@ -93,4 +93,8 @@ Plug 'sudormrfbin/cheatsheet.nvim'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+
+" rmagatti/goto-preview 预览插件
+" https://github.com/rmagatti/goto-preview
+" Plug 'rmagatti/goto-preview'
 call plug#end()
