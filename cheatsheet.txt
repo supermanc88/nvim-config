@@ -59,3 +59,7 @@ Author注释                                                      | :DoxAuthor
 预览定义                                                        | gpd
 预览实现                                                        | gpi
 关闭预览                                                        | gP
+
+## chm-custom
+BufOnly                                                         | BufOnly    <C-2>
+CloseCurrentBuf                                                 | <C-3>

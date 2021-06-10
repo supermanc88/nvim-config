@@ -188,5 +188,11 @@ endfunction
 "
 " :CocInstall coc-json
 " 支持json
+"
+" :CocInstall coc-fzf-preview
+" 支持预览
+"
+" :CocInstall coc-tabnine
+" 机器学习的补全
 
 " neoclide/coc.nvim 补全插件 配置============================================================= ]

@@ -50,10 +50,6 @@ Plug 'tpope/vim-fugitive'
 " https://github.com/dense-analysis/ale
 " Plug 'dense-analysis/ale'
 
-" neoclide/coc.nvim 补全插件
-" https://github.com/neoclide/coc.nvim
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 " yianwillis/vimcdoc 中文帮助
 " https://github.com/yianwillis/vimcdoc
 Plug 'yianwillis/vimcdoc'
@@ -97,4 +93,11 @@ Plug 'nvim-telescope/telescope.nvim'
 " rmagatti/goto-preview 预览插件
 " https://github.com/rmagatti/goto-preview
 " Plug 'rmagatti/goto-preview'
+
+Plug 'junegunn/fzf', {'do': { -> fzf#install() }}
+Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc' }
+" neoclide/coc.nvim 补全插件
+" https://github.com/neoclide/coc.nvim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'antoinemadec/coc-fzf', {'branch': 'release'}
 call plug#end()
