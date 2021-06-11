@@ -104,4 +104,7 @@ Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc' }
 " https://github.com/neoclide/coc.nvim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'antoinemadec/coc-fzf', {'branch': 'release'}
+
+" https://github.com/joshdick/onedark.vim
+Plug 'joshdick/onedark.vim'
 call plug#end()

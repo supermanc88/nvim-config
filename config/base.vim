@@ -24,6 +24,9 @@ highlight CursorLine cterm=none ctermbg=236 guibg=#3F3F3F
 highlight CursorColumn cterm=none ctermbg=236 guibg=#3F3F3F
 
 
+" 设置主题
+colorscheme molokai
+
 " 启动最大化
 "autocmd GUIEnter * simalt ~x
 " 基本配置============================================================= ]

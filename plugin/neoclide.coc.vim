@@ -148,6 +148,8 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 "修改提示框颜色
 " highlight PMenu ctermfg=0 ctermbg=242 guifg=black guibg=darkgrey
 " highlight PMenuSel ctermfg=242 ctermbg=8 guifg=darkgrey guibg=black
+" highlight PMenuSel guifg=darkgrey guibg=black
+" highlight PMenu guibg=black
 
 function! StatusDiagnostic() abort
   let info = get(b:, 'coc_diagnostic_info', {})
