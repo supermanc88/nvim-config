@@ -90,9 +90,13 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
+" neovim/nvim-lspconfig 内置lsp
+" https://github.com/neovim/nvim-lspconfig
+Plug 'neovim/nvim-lspconfig'
+
 " rmagatti/goto-preview 预览插件
 " https://github.com/rmagatti/goto-preview
-" Plug 'rmagatti/goto-preview'
+Plug 'rmagatti/goto-preview'
 
 Plug 'junegunn/fzf', {'do': { -> fzf#install() }}
 Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc' }

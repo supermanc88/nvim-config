@@ -140,14 +140,14 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " highlight link CocFloating CocHighlightText
 " highlight link CocFloating CocListBlueBlack
 " highlight link CocFloating CocListBgBlue
-highlight link CocWarningFloat Normal
-highlight link CocErrorFloat Normal
-highlight link CocInfoFloat Normal
-highlight link CocHintFloat Normal
+" highlight link CocWarningFloat Normal
+" highlight link CocErrorFloat Normal
+" highlight link CocInfoFloat Normal
+" highlight link CocHintFloat Normal
 
 "修改提示框颜色
-highlight PMenu ctermfg=0 ctermbg=242 guifg=black guibg=darkgrey
-highlight PMenuSel ctermfg=242 ctermbg=8 guifg=darkgrey guibg=black
+" highlight PMenu ctermfg=0 ctermbg=242 guifg=black guibg=darkgrey
+" highlight PMenuSel ctermfg=242 ctermbg=8 guifg=darkgrey guibg=black
 
 function! StatusDiagnostic() abort
   let info = get(b:, 'coc_diagnostic_info', {})
