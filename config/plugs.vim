@@ -95,6 +95,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'neovim/nvim-lspconfig'
 
 " rmagatti/goto-preview 预览插件
+" 此插件依赖内置的lsp
 " https://github.com/rmagatti/goto-preview
 Plug 'rmagatti/goto-preview'
 
