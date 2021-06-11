@@ -75,6 +75,9 @@ noremap <leader>fn :<C-U><C-R>=printf("Leaderf gtags --next %s", "")<CR><CR>
 noremap <leader>fp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
 
 " F2显示出当前文件的函数列表
-noremap <F2> :LeaderfFunction!<cr>           
+noremap <F2> :LeaderfFunction!<cr>
+
+highlight clear Lf_hl_popup_window
+highlight Lf_hl_popup_window guibg=#131517
 
 " Yggdroot/LeaderF 模糊搜索插件 配置============================================================= ]
