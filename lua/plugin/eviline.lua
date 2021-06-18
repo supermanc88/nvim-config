@@ -106,7 +106,13 @@ gls.left[5] = {
 
 gls.left[6] = {
   CocStatus = {
-	provider = CocStatus,
+	provider = function()
+		if CocStatus() == '' then
+			return 'Perfect!!!'
+		else
+			return CocStatus()
+		end
+	end,
 	highlight = {colors.green,colors.bg},
     icon = '  🗱 ',
   }
