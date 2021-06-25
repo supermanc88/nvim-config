@@ -8,9 +8,9 @@
 跳转到上一个tag                                                 | <leader>fp
 显示出当前文件的函数列表                                        | <F2>
 查找文件                                                        | <c-p>
-使用rg查找当前光标下的单词                                      | <c-f>
-在当前文件中查找当前光标下的单词                                | <c-b>
 再调用一次rg查找                                                | go
+使用ripgrep在当前buffer中查找buffer                             | <c-b>
+使用ripgrep在当前目录中查找buffer                               | <c-f>
 
 ## coc
 查看文档                                                        | K
