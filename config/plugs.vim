@@ -110,4 +110,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'joshdick/onedark.vim'
 
 Plug 'supermanc88/LeaderF-codebase'
+
+Plug 'ray-x/lsp_signature.nvim'
 call plug#end()
