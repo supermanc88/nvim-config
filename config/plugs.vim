@@ -26,6 +26,8 @@ Plug 'preservim/nerdtree'                    							" 目录树
 
 Plug 'mhinz/vim-startify'
 
+" https://github.com/projekt0n/github-nvim-theme
+Plug 'projekt0n/github-nvim-theme'
 
 " statusline 插件
 "Plug 'vim-airline/vim-airline'                							" 状态栏
@@ -114,6 +116,4 @@ Plug 'supermanc88/LeaderF-codebase'
 Plug 'ray-x/lsp_signature.nvim'
 
 
-" https://github.com/projekt0n/github-nvim-themes
-Plug 'projekt0n/github-nvim-themes'
 call plug#end()

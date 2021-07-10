@@ -24,8 +24,6 @@ highlight CursorLine cterm=none ctermbg=236 guibg=#3F3F3F
 highlight CursorColumn cterm=none ctermbg=236 guibg=#3F3F3F
 
 
-" 设置主题
-" colorscheme molokai
 
 " gui启动参数添加 --no-ext-tabline
 " 基本配置============================================================= ]
