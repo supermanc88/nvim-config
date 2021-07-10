@@ -112,4 +112,8 @@ Plug 'joshdick/onedark.vim'
 Plug 'supermanc88/LeaderF-codebase'
 
 Plug 'ray-x/lsp_signature.nvim'
+
+
+" https://github.com/projekt0n/github-nvim-themes
+Plug 'projekt0n/github-nvim-themes'
 call plug#end()
