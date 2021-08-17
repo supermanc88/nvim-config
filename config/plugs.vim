@@ -37,6 +37,7 @@ Plug 'vim-airline/vim-airline-themes'												" 状态栏主题
 Plug 'kyazdani42/nvim-web-devicons'
 
 " tabline 插件
+" buffer 列表
 Plug 'akinsho/nvim-bufferline.lua'
 
 " 目录树插件
@@ -87,7 +88,7 @@ Plug 'ntpeters/vim-better-whitespace'
 " sudormrfbin/cheatsheet.nvim 速查表
 " https://github.com/sudormrfbin/cheatsheet.nvim
 Plug 'sudormrfbin/cheatsheet.nvim'
-" optional
+" optional 依赖以下3个?
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
