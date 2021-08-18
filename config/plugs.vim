@@ -116,5 +116,7 @@ Plug 'supermanc88/LeaderF-codebase'
 
 Plug 'ray-x/lsp_signature.nvim'
 
+" 剪切板管理 暂不生效，可能还需要配置telescop
+Plug 'AckslD/nvim-neoclip.lua'
 
 call plug#end()
