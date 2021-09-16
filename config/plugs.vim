@@ -26,9 +26,6 @@ Plug 'preservim/nerdtree'                    							" 目录树
 
 Plug 'mhinz/vim-startify'
 
-" https://github.com/projekt0n/github-nvim-theme
-Plug 'projekt0n/github-nvim-theme'
-
 " statusline 插件
 "Plug 'vim-airline/vim-airline'                							" 状态栏
 Plug 'vim-airline/vim-airline-themes'												" 状态栏主题
@@ -125,4 +122,6 @@ Plug 'arcticicestudio/nord-vim'
 " 主题插件
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
+" 主题插件
+Plug 'projekt0n/github-nvim-theme'
 call plug#end()

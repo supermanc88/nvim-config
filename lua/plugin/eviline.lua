@@ -4,6 +4,8 @@ local condition = require('galaxyline.condition')
 local gls = gl.section
 gl.short_line_list = {'NvimTree','vista','dbui','packer'}
 
+-- colors.bg = '#8094b4'
+
 local function lsp_status(status)
     shorter_stat = ''
     for match in string.gmatch(status, "[^%s]+")  do
