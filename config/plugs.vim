@@ -124,4 +124,7 @@ Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
 " 主题插件
 Plug 'projekt0n/github-nvim-theme'
+
+" 主题插件
+Plug 'wuelnerdotexe/vim-enfocado'
 call plug#end()

@@ -1,8 +1,8 @@
 require('bufferline').setup {
   options = {
     numbers = "both", -- "none" | "ordinal" | "buffer_id" | "both"
-    number_style = "superscript", -- buffer_id at index 1, ordinal at index 2 "superscript" | "" | { "none", "subscript" }
-    mappings = true, -- true | false
+    -- number_style = "superscript", -- buffer_id at index 1, ordinal at index 2 "superscript" | "" | { "none", "subscript" }
+    -- mappings = true, -- true | false
     -- NOTE: this plugin is designed with this icon in mind,
     -- and so changing this is NOT recommended, this is intended
     -- as an escape hatch for people who cannot bear it for whatever reason
