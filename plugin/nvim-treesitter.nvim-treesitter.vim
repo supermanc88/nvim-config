@@ -22,3 +22,15 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
+" 使用 :TSInstallInfo 查看安装的语言支持
+" 使用 :TSInstall <language> 安装语言
+" TSInstall c
+" TSInstall cpp
+" TSInstall go
+" TSInstall vim
+" TSInstall python
+" TSInstall javascript
+"
+" 可能会遇到以下错误
+" No C compiler found!
+" 需要把gcc或clang或cc加入到环境变量中

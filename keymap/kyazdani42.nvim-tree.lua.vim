@@ -1,4 +1,4 @@
-nnoremap <silent> <C-n> :NvimTreeToggle<CR>
-nnoremap <silent> <leader>tr :NvimTreeRefresh<CR>
-nnoremap <silent> <leader>n :NvimTreeFindFile<CR>
-" NvimTreeOpen and NvimTreeClose are also available if you need them
+nnoremap <C-n> :NvimTreeToggle<CR>
+nnoremap <leader>r :NvimTreeRefresh<CR>
+nnoremap <leader>n :NvimTreeFindFile<CR>
+" NvimTreeOpen, NvimTreeClose, NvimTreeFocus and NvimTreeResize are also available if you need them
