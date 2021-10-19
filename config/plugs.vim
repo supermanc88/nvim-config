@@ -113,18 +113,4 @@ Plug 'supermanc88/LeaderF-codebase'
 
 Plug 'ray-x/lsp_signature.nvim'
 
-" 剪切板管理 暂不生效，可能还需要配置telescop
-Plug 'AckslD/nvim-neoclip.lua'
-
-" 主题插件,经测试，不怎么好看
-Plug 'arcticicestudio/nord-vim'
-
-" 主题插件
-Plug 'sonph/onehalf', {'rtp': 'vim/'}
-
-" 主题插件
-Plug 'projekt0n/github-nvim-theme'
-
-" 主题插件
-Plug 'wuelnerdotexe/vim-enfocado'
 call plug#end()
