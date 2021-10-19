@@ -196,5 +196,8 @@ endfunction
 "
 " :CocInstall coc-tabnine
 " 机器学习的补全
+"
+" :CocInstall coc-yank
+" 剪切板管理
 
 " neoclide/coc.nvim 补全插件 配置============================================================= ]
