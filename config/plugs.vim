@@ -3,6 +3,9 @@ call plug#begin('~/.nvim-config/plugged')
 " https://github.com/nvim-treesitter/nvim-treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+"copilot ai写代码插件
+Plug 'github/copilot.vim'
+
 " luochen1990/rainbow 彩虹括号插件
 " https://github.com/luochen1990/rainbow
 Plug 'luochen1990/rainbow'
