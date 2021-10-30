@@ -199,5 +199,7 @@ endfunction
 "
 " :CocInstall coc-yank
 " 剪切板管理
-
+"
+" :CocList extensions
+" 查看所有的插件
 " neoclide/coc.nvim 补全插件 配置============================================================= ]
