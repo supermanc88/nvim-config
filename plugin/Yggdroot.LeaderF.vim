@@ -1,5 +1,6 @@
 " [ Yggdroot/LeaderF 模糊搜索插件 配置=============================================================
 
+" neovim 需要安装 pip3 install pynvim
 " 此插件需要 GNU GLOBAL(gtags) 的配合
 " Windows下载地址 https://www.gnu.org/software/global/download.html
 " 正则表达式/字符串检索 Leaderf rg ...
