@@ -17,7 +17,8 @@ LeaderF 需要vim的python support
 	LeaderF需要ctags
 		apt install universal-ctags
 
-
+	LeaderF需要ripgrep
+		apt install ripgrep
 
 
 neovim 需要lua support
@@ -30,3 +31,6 @@ coc相关插件安装:
 		CocInstall coc-clangd
 	2.剪切板支持
 		CocInstall coc-yank
+
+
+
