@@ -119,4 +119,8 @@ Plug 'ray-x/lsp_signature.nvim'
 Plug 'rktjmp/lush.nvim'
 Plug 'ViViDboarder/wombat.nvim'				"主题插件，不怎么好看
 
+
+" 主题插件，不怎么好看
+Plug 'Pocco81/Catppuccino.nvim'
+
 call plug#end()
