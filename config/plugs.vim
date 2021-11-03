@@ -123,4 +123,15 @@ Plug 'ViViDboarder/wombat.nvim'				"主题插件，不怎么好看
 " 主题插件，不怎么好看
 Plug 'Pocco81/Catppuccino.nvim'
 
+" 主题插件，不怎么好看
+Plug 'jacoborus/tender.vim'
+
+" 主题插件，感觉还可以
+Plug 'srcery-colors/srcery-vim'
+
+" 主题插件，感觉还可以
+Plug 'bluz71/vim-nightfly-guicolors'
+
+" 主题插件，感觉还可以
+Plug 'gertjanreynaert/cobalt2-vim-theme'
 call plug#end()
