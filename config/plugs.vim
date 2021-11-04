@@ -134,4 +134,7 @@ Plug 'bluz71/vim-nightfly-guicolors'
 
 " 主题插件，感觉还可以
 Plug 'gertjanreynaert/cobalt2-vim-theme'
+
+" include header guard
+Plug 'drmikehenry/vim-headerguard'
 call plug#end()
