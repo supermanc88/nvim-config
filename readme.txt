@@ -31,6 +31,8 @@ coc相关插件安装:
 		CocInstall coc-clangd
 	2.剪切板支持
 		CocInstall coc-yank
+	3.文件管理器支持
+		CocInstall coc-explorer
 
 
 
