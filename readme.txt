@@ -1,5 +1,11 @@
+NeoVim安装
+	Mac
+		brew install neovim
+	Linux/Windows
+		从官方下载压缩包
+
 配置文件路径
-	Linux
+	Linux/Mac
 		~/.config/nvim
 
 	Windows
