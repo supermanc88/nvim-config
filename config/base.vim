@@ -1,5 +1,6 @@
 " [ 基本配置=============================================================
 filetype plugin on						"	preservim/nerdcommenter 需要开启
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set encoding=utf-8
 set enc=utf-8
 set tabstop=4                 " 设置制表符长度
