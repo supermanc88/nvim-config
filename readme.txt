@@ -98,3 +98,22 @@ coc相关插件安装:
 		关闭其它buffer									:BufOnly
 		关闭当前buffer									:bd
 
+	改变窗口大小
+		CTRL-W =	使得所有窗口 (几乎) 等宽、等高，但当前窗口使用 'winheight' 和
+				'winwidth'。
+				置位 'winfixheight' 的窗口保持它们的高度，而置位 'winfixwidth'
+				的窗口保持它们的宽度。
+
+		:res[ize] -N					*:res* *:resize* *CTRL-W_-*
+		CTRL-W -	使得当前窗口高度减 N (默认值是 1)。
+				如果在 |:vertical| 之后使用，则使得宽度减 N。
+
+		:res[ize] +N					*CTRL-W_+*
+		CTRL-W +	使得当前窗口高度加 N (默认值是 1)。
+				如果在 |:vertical| 之后使用，则使得宽度加 N。
+
+		z{nr}<CR>	设置当前窗口的高度为 {nr}。
+
+		CTRL-W <	使得当前窗口宽度减 N (默认值是 1)。
+
+		CTRL-W >	使得当前窗口宽度加 N (默认值是 1)。
